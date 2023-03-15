@@ -1,0 +1,21 @@
+"use client"
+import { signOut } from "next-auth/react"
+import Image from "next/image"
+import Link from "next/link"
+type User = {
+    image: string
+}
+
+export default function Logged() {
+  
+  return (
+    <li className="flex gap-4">
+        <button onClick={() => signOut()}>signOut</button>
+        <Link href={"/dashboard"}>
+            
+            
+        </Link>
+        
+    </li>
+  )
+}
