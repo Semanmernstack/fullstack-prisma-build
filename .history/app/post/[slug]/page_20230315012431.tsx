@@ -53,7 +53,6 @@ export default function PageDetails (url: URL) {
                             width={24}
                             height={24}
                             src={comment.user?.image}
-                            priority={true}
                             alt="avatar"
                         />
                         
